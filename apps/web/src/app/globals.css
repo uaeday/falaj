@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+/* Falaj brand tokens: see the Falaj Brand Book (Oasis palette) */
+@theme {
+  --color-palm: #0E3B33;
+  --color-channel: #1C8580;
+  --color-spring: #BFE4DC;
+  --color-sarooj: #A4553A; /* alerts & exceptions only */
+  --color-limestone: #F1F3EF;
+  --color-basalt: #14201C;
+
+  --font-display: var(--font-readex), var(--font-plex-arabic), system-ui, sans-serif;
+  --font-sans: var(--font-plex), var(--font-plex-arabic), system-ui, sans-serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, Menlo, monospace;
+}
+
+:root {
+  --bg: var(--color-limestone);
+  --surface: #ffffff;
+  --plate: #E6EBE6;
+  --fg: var(--color-basalt);
+  --muted: #5B6A64;
+  --line: #D5DCD7;
+  --accent: var(--color-channel);
+  --mark: var(--color-palm);
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0F1715;
+    --surface: #16211E;
+    --plate: #1B2824;
+    --fg: #E6EDE9;
+    --muted: #96A59F;
+    --line: #2A3833;
+    --accent: #4FB8B0;
+    --mark: #BFE4DC;
+    color-scheme: dark;
+  }
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-sans);
+}
+
+html[lang="ar"] body {
+  font-family: var(--font-plex-arabic), var(--font-readex), Tahoma, sans-serif;
+}
+
+/* Amounts, TRNs and IBANs: mono, tabular, always LTR even inside RTL */
+.num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+/* Arabic is never letter-spaced: tracking breaks the joins between letters */
+html[lang="ar"] .eyebrow {
+  font-family: var(--font-plex-arabic), sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 0;
+}

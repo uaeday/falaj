@@ -1,0 +1,33 @@
+{
+  "name": "@falaj/web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@falaj/company": "workspace:*",
+    "@falaj/compliance": "workspace:*",
+    "@falaj/core": "workspace:*",
+    "@falaj/ledger": "workspace:*",
+    "@falaj/provisioning": "workspace:*",
+    "@falaj/tax-uae": "workspace:*",
+    "@falaj/website": "workspace:*",
+    "@falaj/workspace": "workspace:*",
+    "next": "^16.3.8",
+    "next-intl": "^4.14.8",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "tailwindcss": "^4.3.3"
+  }
+}

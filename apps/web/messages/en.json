@@ -1,0 +1,192 @@
+{
+  "brand": {
+    "name": "falaj",
+    "tagline": "Every dirham, in its channel.",
+    "module": "Company OS"
+  },
+  "nav": {
+    "home": "Company OS",
+    "launch": "Launch Kit",
+    "ledger": "Ledger",
+    "switch": "العربية"
+  },
+  "dashboard": {
+    "eyebrow": "Phase 2 · Run · ledger preview",
+    "title": "Cash position",
+    "entity": "Al Qattara Trading LLC · Dubai mainland",
+    "sample": "All figures are samples posted through the real ledger and VAT engine on this page load.",
+    "kpi": {
+      "revenue": "Revenue (Q1 2027)",
+      "vatPayable": "VAT201 payable",
+      "vatDue": "VAT201 due",
+      "einvoice": "E-invoicing go-live"
+    },
+    "provisional": "Provisional · verify with MoF",
+    "invoice": {
+      "title": "Tax Invoice",
+      "item": "Item",
+      "qty": "Qty",
+      "rate": "Rate",
+      "amount": "Amount AED",
+      "vat": "VAT 5%",
+      "total": "Total",
+      "issued": "Issued with falaj · PINT-AE e-invoice ready"
+    },
+    "tb": {
+      "title": "Trial balance",
+      "account": "Account",
+      "debit": "Debit",
+      "credit": "Credit",
+      "total": "Total",
+      "balanced": "Balanced",
+      "lines": "{count, plural, one {# line} other {# lines}}"
+    },
+    "vat": {
+      "title": "VAT201 — Q1 2027",
+      "box": "Box",
+      "description": "Description",
+      "amount": "Amount",
+      "vat": "VAT"
+    },
+    "controls": {
+      "title": "Controls evidenced",
+      "immutable": "Posted journals are frozen; corrections by reversal only",
+      "chain": "Audit hash chain verified",
+      "entries": "{count} journal entries"
+    }
+  },
+  "home": {
+    "eyebrow": "The company operating system for the UAE",
+    "title": "Licence in the morning. Open for business by the afternoon.",
+    "lead": "Falaj sets up everything a UAE business needs to run on the day its licence is issued, and keeps it compliant as it grows.",
+    "cta": "See a launch, licence to live",
+    "secondary": "Preview the ledger",
+    "pillars": {
+      "signup": {
+        "title": "One sign-up",
+        "body": "UAE PASS and trade-licence data create the company once."
+      },
+      "provisioned": {
+        "title": "Everything provisioned",
+        "body": "Domain, email, website, invoicing, VAT and e-invoicing share the same records."
+      },
+      "compliant": {
+        "title": "Compliant by default",
+        "body": "VAT, Corporate Tax, e-invoicing, WPS and PDPL rules run underneath."
+      }
+    },
+    "phases": "Roadmap",
+    "phase": {
+      "p1": {
+        "name": "Launch Kit",
+        "when": "Q1–Q2 2027",
+        "body": "Licence import, domain, email, website, bank feeds, invoicing, VAT, e-invoicing, contacts, compliance calendar."
+      },
+      "p2": {
+        "name": "Run",
+        "when": "H2 2027",
+        "body": "Full ledger, HRMS, payroll and WPS, expenses, inventory, Corporate Tax."
+      },
+      "p3": {
+        "name": "Grow",
+        "when": "2028",
+        "body": "CRM, WhatsApp, client portal, campaigns, e-commerce, projects, FP&A."
+      },
+      "p4": {
+        "name": "Pay and Scale",
+        "when": "2028 onward",
+        "body": "Payments, open finance, cards and financing through licensed partners."
+      }
+    },
+    "now": "Building now"
+  },
+  "launch": {
+    "eyebrow": "Phase 1 · Launch Kit · sandbox run",
+    "title": "From trade licence to a running company",
+    "sample": "Runs the real launch saga against sandbox partners on this page load. Licences, people and numbers are samples; partner timings are simulated.",
+    "pick": "Sample licence",
+    "status": {
+      "LIVE": "Live",
+      "WAITING": "Waiting",
+      "FAILED": "Stopped",
+      "RUNNING": "Running"
+    },
+    "kpi": {
+      "time": "Licence to live",
+      "target": "Target: under one working day",
+      "met": "Target met",
+      "open": "Follow-ups",
+      "none": "None",
+      "plan": "Recommended plan",
+      "price": "Price to be set",
+      "partner": "Activated by"
+    },
+    "steps": {
+      "SIGN_IN": {
+        "title": "Sign in",
+        "body": "Licence imported; owners and activities created once."
+      },
+      "DOMAIN": {
+        "title": "Pick a domain",
+        "body": ".ae or .com registered with DNS set up."
+      },
+      "EMAIL": {
+        "title": "Create email",
+        "body": "Mailboxes on your domain for every person."
+      },
+      "WEBSITE": {
+        "title": "Launch website",
+        "body": "Bilingual site built from your licence."
+      },
+      "BANK": {
+        "title": "Link your bank",
+        "body": "Bank feeds through a licensed open-finance partner."
+      },
+      "FINANCE": {
+        "title": "Books ready",
+        "body": "Accounts, VAT, e-invoicing and calendar configured."
+      },
+      "GO_LIVE": {
+        "title": "Go live",
+        "body": "Invoicing and contacts switched on."
+      }
+    },
+    "stepStatus": {
+      "DONE": "Done",
+      "WAITING": "Waiting",
+      "FAILED": "Failed",
+      "PENDING": "Pending"
+    },
+    "company": "Company record",
+    "licence": "Licence",
+    "authority": "Authority",
+    "vertical": "Vertical",
+    "people": "People",
+    "ubo": "UBO candidate",
+    "verticals": {
+      "PROFESSIONAL_SERVICES": "Professional services",
+      "TRADING": "Trading",
+      "ECOMMERCE": "E-commerce",
+      "CONTRACTING": "Contracting",
+      "OTHER": "Other"
+    },
+    "workspace": "Domain and email",
+    "mailboxes": "Mailboxes",
+    "dns": "DNS records",
+    "role": "Shared inbox",
+    "website": "Website",
+    "websiteNote": "Generated from the licence. Customer brand leads; falaj signs off.",
+    "bank": "Bank link",
+    "bankWaiting": "Waiting for {name} to authorise bank access with their bank. Everything else is live.",
+    "books": "Books",
+    "accounts": "{count} accounts",
+    "firstYear": "First financial year ends",
+    "asp": "E-invoicing provider onboarding requested",
+    "calendar": "Compliance calendar",
+    "ongoing": "Ongoing",
+    "verify": "Verify",
+    "audit": "Every step recorded in the audit chain",
+    "minutesUnit": "min",
+    "recurring": "Monthly"
+  }
+}

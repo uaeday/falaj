@@ -1,0 +1,18 @@
+{
+  "name": "falaj",
+  "private": true,
+  "packageManager": "pnpm@10.18.0",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "typecheck": "turbo run typecheck",
+    "dev": "turbo run dev --filter=@newco/web"
+  },
+  "devDependencies": {
+    "turbo": "^2.11.5",
+    "typescript": "^5.9.3",
+    "vitest": "^5.0.3",
+    "@types/node": "^24.0.0"
+  }
+}

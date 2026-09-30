@@ -1,0 +1,25 @@
+{
+  "name": "@falaj/db",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@falaj/core": "workspace:*",
+    "@falaj/ledger": "workspace:*",
+    "drizzle-orm": "^0.45.3",
+    "@falaj/provisioning": "workspace:*"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.5.8",
+    "@falaj/company": "workspace:*",
+    "@falaj/website": "workspace:*",
+    "@falaj/workspace": "workspace:*"
+  }
+}
